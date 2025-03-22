@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "build":  "mkdir dist && cp -r * dist"
+    "build": "mkdir dist && xcopy * dist /E /I"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
